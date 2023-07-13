@@ -285,8 +285,15 @@ h2 {
   text-decoration: none;
 }
 
+.course-card:hover {
+  box-shadow: 12px 12px 2px 0px var(--color-button-hover-red);
+}
+
 .show-more-button {
   box-shadow: 4px 4px 0 var(--color-accent-yellow);
+}
+.show-more-button:hover {
+  box-shadow: 12px 12px 2px 0px var(--color-course-hover-yellow);
 }
 
 .show-more-all {
@@ -304,4 +311,46 @@ h2 {
 .button-icon {
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 750px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .course-card {
+    width: 350px;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .course-img {
+    width: 100%;
+    height: 220px;
+  }
+
+  .course-description {
+    font-size: 12px;
+  }
+
+  .section-ttl {
+    font-size: 24px;
+  }
+
+  .about-img-wrapper {
+    display: none;
+  }
+
+  .courses-container {
+    gap: 40px;
+  }
+
+  .button {
+    width: 350px;
+  }
+
+  .show-more-all {
+    font-size: 14px;
+    width: 260px;
+  }
 }
