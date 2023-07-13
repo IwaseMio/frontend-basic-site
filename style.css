@@ -194,7 +194,7 @@ h2 {
   width: 100%;
 }
 
-.cources {
+.courses {
   background-color: var(--color-background-navy);
   display: flex;
   flex-direction: column;
@@ -268,7 +268,7 @@ h2 {
   height: 76px;
 }
 
-.cource-show-more {
+.course-show-more {
   color: var(--color-accent-red);
   align-self: flex-end;
 }
