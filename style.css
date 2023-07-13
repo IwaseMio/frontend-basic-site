@@ -216,6 +216,7 @@ h2 {
   box-shadow: 4px 4px 0 var(--color-accent-red);
   text-decoration: none;
   transition: 0.3s;
+  background: var(--color-accent-yellow);
 }
 
 .course-img {
@@ -253,7 +254,6 @@ h2 {
 }
 
 .course-content {
-  background: var(--color-accent-yellow);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -286,6 +286,8 @@ h2 {
 
 .course-card:hover {
   box-shadow: 12px 12px 2px 0px var(--color-accent-red);
+  background: var(--color-course-hover-yellow);
+  transition: 0.3s;
 }
 
 .show-more-button {
