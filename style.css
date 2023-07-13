@@ -324,7 +324,6 @@ h2 {
   }
 
   .course-card {
-    width: 350px;
     height: auto;
     flex-direction: column;
   }
@@ -348,10 +347,6 @@ h2 {
 
   .courses-container {
     gap: 40px;
-  }
-
-  .button {
-    width: 350px;
   }
 
   .show-more-all {
