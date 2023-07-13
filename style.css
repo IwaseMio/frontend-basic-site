@@ -328,6 +328,10 @@ h2 {
     flex-direction: column;
   }
 
+  .course-show-more {
+    font-size: 12px;
+  }
+
   .course-img {
     width: 100%;
     height: 220px;
@@ -347,6 +351,10 @@ h2 {
 
   .courses-container {
     gap: 40px;
+  }
+
+  button {
+    height: 40px;
   }
 
   .show-more-all {
