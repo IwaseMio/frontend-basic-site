@@ -215,6 +215,7 @@ h2 {
   align-self: stretch;
   box-shadow: 4px 4px 0 var(--color-accent-red);
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .course-img {
@@ -275,9 +276,7 @@ h2 {
 
 .button {
   background: var(--color-accent-red);
-  width: 800px;
   height: 60px;
-  margin: 10px 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -286,20 +285,26 @@ h2 {
 }
 
 .course-card:hover {
-  box-shadow: 12px 12px 2px 0px var(--color-button-hover-red);
+  box-shadow: 12px 12px 2px 0px var(--color-accent-red);
 }
 
 .show-more-button {
   box-shadow: 4px 4px 0 var(--color-accent-yellow);
+  display: flex;
+  width: 100%;
+  transition: 0.3s;
 }
 .show-more-button:hover {
+  background: var(--color-button-hover-red);
   box-shadow: 12px 12px 2px 0px var(--color-course-hover-yellow);
+  transition: 0.3s;
 }
 
 .show-more-all {
   color: var(--color-white);
   font-size: 20px;
-  width: 670px;
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
