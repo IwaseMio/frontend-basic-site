@@ -272,3 +272,36 @@ h2 {
   color: var(--color-accent-red);
   align-self: flex-end;
 }
+
+.button {
+  background: var(--color-accent-red);
+  width: 800px;
+  height: 60px;
+  margin: 10px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.show-more-button {
+  box-shadow: 4px 4px 0 var(--color-accent-yellow);
+}
+
+.show-more-all {
+  color: var(--color-white);
+  font-size: 20px;
+  width: 670px;
+  text-align: center;
+}
+
+.button-arrow {
+  width: 40px;
+  height: 40px;
+}
+
+.button-icon {
+  width: 100%;
+  height: 100%;
+}
