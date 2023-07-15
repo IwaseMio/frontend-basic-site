@@ -376,6 +376,10 @@ img {
   color: var(--color-black);
 }
 
+.signup-description {
+  margin: 0;
+}
+
 .signup-form {
   width: 100%;
   display: grid;
