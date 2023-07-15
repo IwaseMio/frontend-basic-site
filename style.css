@@ -407,24 +407,31 @@ img {
   border-radius: 8px;
   border: 1px solid var(--color-form-border-red);
   background: var(--color-form-background-yellow);
-  color: var(--color-form-placeholder-gray);
+  color: var(--color-black);
   display: flex;
   font-size: 16px;
   padding: 10px;
 }
 
+.signup-input::placeholder {
+  color: var(--color-form-placeholder-gray);
+}
+
 .signup-ambition-input {
   display: flex;
   align-items: flex-start;
-}
-
-#ambition {
   height: 150px;
   text-align: start;
 }
 
 .signup-button {
   box-shadow: 4px 4px 0 var(--color-black);
+  transition: 0.3s;
+}
+
+.signup-button:hover {
+  background: var(--color-button-hover-red);
+  box-shadow: 12px 12px 2px 0px var(--color-black);
 }
 
 @media (max-width: 750px) {
