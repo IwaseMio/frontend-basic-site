@@ -155,7 +155,7 @@ img {
   gap: 40px;
 }
 
-.section-ttl {
+.section-title {
   font-family: var(--font-family-heading);
   color: var(--color-white);
   font-size: 32px;
@@ -344,7 +344,7 @@ img {
     font-size: 12px;
   }
 
-  .section-ttl {
+  .section-title {
     font-size: 24px;
   }
 
@@ -374,7 +374,7 @@ img {
   padding: 80px 0;
 }
 
-.signup-section-ttl {
+.signup-section-title {
   color: var(--color-black);
 }
 
