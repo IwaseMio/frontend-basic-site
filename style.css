@@ -429,6 +429,11 @@ img {
   .signup-input-container {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+  }
+
+  .signup-label {
+    font-size: 16px;
   }
 }
 
