@@ -35,7 +35,7 @@
     </section>
     <section class="about" id="about">
       <div class="container">
-        <h2 class="section-ttl about-section-ttl">
+        <h2 class="section-title about-section-title">
           What Is
           <span class="about-accent-red">Grand</span>
           <span class="about-accent-yellow">Players</span>?
@@ -55,7 +55,7 @@
     </section>
     <section class="courses" id="courses">
       <div class="container">
-        <h2 class="section-ttl">Courses</h2>
+        <h2 class="section-title">Courses</h2>
         <div class="courses-block-container">
           <a href="#" class="course-card">
             <div class="course-img">
@@ -110,5 +110,63 @@
         </a>
       </div>
     </section>
+    <section class="signup" id="signup">
+      <div class="container signup-container">
+        <h2 class="section-title signup-section-title">Let’s Try!</h2>
+        <p class="signup-description">
+          Grand
+          Playersでは、ご利用登録いただけた方に対し、３レッスン分の無料枠をプレゼントいたします！
+          今すぐレッスンを初めて、”Grand”なプレイヤーを目指しましょう！
+          お申し込みは下記フォームからどうぞ！
+        </p>
+        <form action="" class="signup-form">
+          <div class="signup-input-container">
+            <label for="username" class="signup-label"> お名前 </label>
+            <input
+              type="text"
+              class="signup-input"
+              id="username"
+              placeholder="エドワード ヴァン 太郎"
+            />
+            <label for="email" class="signup-label"> メールアドレス </label>
+            <input
+              type="email"
+              class="signup-input"
+              id="email"
+              placeholder="grand.players@example.com"
+            />
+            <label for="guitar-experience" class="signup-label">
+              ギター歴 (年)
+            </label>
+            <input
+              type="number"
+              class="signup-input"
+              id="guitar-experience"
+              placeholder="3"
+              min="0"
+            />
+            <label for="ambition" class="signup-label">
+              意気込みをどうぞ！
+            </label>
+            <textarea
+              class="signup-input signup-ambition-input"
+              id="ambition"
+              name="ambition"
+              placeholder="イカすギターソロをかましてモテた～い！"
+              rows="5"
+            ></textarea>
+          </div>
+          <a href="." class="button signup-button">
+            <div class="show-more-all">送信する</div>
+            <div class="button-arrow">
+              <img src="./img/arrow-right.svg" alt="more" class="button-icon" />
+            </div>
+          </a>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-copyright">©2023 GrandPlayers</div>
+    </footer>
   </body>
 </html>
